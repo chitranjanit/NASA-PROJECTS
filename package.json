@@ -1,0 +1,26 @@
+{
+  "name": "NASA-PROJECTS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm run watch --prefix server",
+    "client": "npm start --prefix client",
+    "watch": "npm run server & npm run client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chitranjanit/NASA-PROJECTS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chitranjanit/NASA-PROJECTS/issues"
+  },
+  "homepage": "https://github.com/chitranjanit/NASA-PROJECTS#readme",
+  "dependencies": {
+    "morgan": "^1.10.0"
+  }
+}
