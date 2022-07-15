@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const { parse } = require("csv-parse");
+const launchesRouter = require("../routes/launches/launches.router");
 
 const habitablePlanets = [];
 
